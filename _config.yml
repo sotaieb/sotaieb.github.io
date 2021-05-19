@@ -5,19 +5,35 @@ title                    : "Souheil TAIEB"
 title_separator          : "-"
 subtitle                 : "Software Engineer"
 name                     : "Souheil TAIEB"
-description              : "Souheil Taieb is a software engineer."
-url                      : "https://sotaieb.github.io"
+description              : >-
+    I am a Software Enginner focusing on Web development and the .Net stack in particular.
+    Technologies I’ve used includes .Net(C#), Sql/Transact Sql, ReactJs/Vue Js, and more.
+    I blog about technology and engineering. Let's make the world better through hight quality software.
+
+url                      :  "https://sotaieb.com"
 baseurl                  :
 logo                     : #"/assets/images/logo.png"
+og_image                 : "/assets/images/staieb-tof.jpg"
 masthead_title           : "Souheil TAIEB"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+# head_scripts:
+#   - https://xxx.min.js
+#   - /assets/js/xxx.js
+
+# footer_scripts:
+#   - https://xxx.min.js
+#   - /assets/js/xxx.js
+
+# after_footer_scripts:
+  #   - https://xxx.min.js
+  #   - /assets/js/xxx.js
+
 # SEO Related
-google_site_verification :
-bing_site_verification   :
+google_site_verification : "OfqzMKz_ROfaV-fV5St63PcazqmveEpgj0yfPqXvNis"
 
 # Social Sharing
 twitter:
@@ -25,19 +41,17 @@ twitter:
 
 # Analytics
 analytics:
-  provider               : "google-gtag" #false # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          :
-
+  provider               : "google-gtag" #false "custom"
 
 # Site Author
 author:
   name             : "Souheil TAIEB"
-  avatar           : "/assets/images/me-88.png"
+  avatar           : "/assets/images/staieb-tof.jpg"
+
   bio              : >-
-    I am a Software Enginner focusing on Microsoft technologies.
-    Technologies I’ve used include .Net(C#), SQL Server, ReactJs/Vue Js, and more.
-    I blog about technology. Let's make the world better through hight quality software.
+    I am a Software Enginner focusing on Web development and the .Net stack in particular.
+    Technologies I’ve used includes .Net(C#), Sql/Transact Sql, ReactJs/Vue Js, and more.
+    I blog about technology and engineering. Let's make the world better through hight quality software.
   location         : "France"
   links:
     - label: "Email"
@@ -96,7 +110,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /site
 keep_files:
   - .git
   - .svn
@@ -198,3 +211,5 @@ defaults:
     values:
       layout: single
       author_profile: true
+      excerpt:
+        Souheil TAIEB a Software Enginner focusing on Web development and the .Net stack in particular.
