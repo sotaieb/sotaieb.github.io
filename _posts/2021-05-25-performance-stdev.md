@@ -1,5 +1,5 @@
 ---
-title: "Performance - Stdev"
+title: "Performance-Stdev"
 categories:
   - Performance
 tags:

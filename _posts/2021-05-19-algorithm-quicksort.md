@@ -1,5 +1,5 @@
 ---
-title: "Algorithm - Quick Sort"
+title: "Algorithm-Quick Sort"
 categories:
   - Algorithm
 tags:
