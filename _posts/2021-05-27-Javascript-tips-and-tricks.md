@@ -1,5 +1,5 @@
 ---
-title: "Javascript-Tricks"
+title: "Javascript-Tips and Tricks"
 categories:
   - Javascript
 tags:
@@ -130,3 +130,15 @@ The script will be executed after the document has been parsed.
   <body></body>
 </html>
 ```
+
+### Async vs Defer
+
+With async, the file gets downloaded asynchronously and then executed as soon as it’s downloaded.
+
+With defer, the file gets downloaded asynchronously, but executed only when the document parsing is completed.
+With defer, scripts will execute in the same order as they are called.
+This makes defer the attribute of choice when a script depends on another script.
+For example, if you’re using jQuery as well as other scripts that depend on it,
+you’d use defer on them (jQuery included), making sure to call jQuery before the dependent scripts.
+
+A good strategy is to use async when possible, and then defer when async isn’t an option.

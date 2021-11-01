@@ -2,7 +2,7 @@
 title: "Architecture-Architectural Patterns"
 categories:
   - Architecture
-tags: 
+tags:
   - Microservices
   - CQRS
   - Event Sourcing

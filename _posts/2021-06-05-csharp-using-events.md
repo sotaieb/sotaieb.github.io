@@ -17,6 +17,11 @@ Subscription (-= , +=) is allowed from outside the containing class.
 
 With a public delegate field, anyone can remove other people's (using assignment =) event handlers, raise the event themselves.
 
+The Publisher-Subscriber (pub-sub) pattern is an implementation of event-driven architecture.
+
+In the Observer pattern, the Observers are aware of the Subscribers.
+In Publisher/Subscriber, publishers and subscribers don’t need to know each other.
+
 ```csharp
 public delegate void NotifyHandler();
 
