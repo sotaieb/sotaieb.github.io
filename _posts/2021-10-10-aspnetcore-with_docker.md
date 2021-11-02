@@ -8,6 +8,8 @@ tags:
   - Docker Swarm
 ---
 
+The goal is to define and run multi-container Docker for Asp.net core applications.
+
 ## Configure Application to use Https
 
 ```sh
@@ -19,6 +21,15 @@ cd path\to\project
 
 dotnet user-secrets -p app.csproj set "Kestrel:Certificates:Development:Password" "admin"
 ```
+
+Import certificate:
+MMC. File --> Add/Remove Snap-In>Click Add>Choose Certificates>Add
+Check the "Computer Account" radio button>Next.
+
+Choose the client computer in the next screen>Finish.
+install the certificate "PFX" into the "Trusted Root Certification Authorities certificate store".
+
+Select the cert-> Right click-> Go to All tasks-> Manage Private Keys-> Add permissions to user executing the server.
 
 ## Manage docker image
 

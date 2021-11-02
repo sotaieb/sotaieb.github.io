@@ -1,13 +1,15 @@
 ---
-title: "Security-Identity with .Net5 and IdentityServer"
+title: "Aspnet Core security with IdentityServer"
 categories:
-  - security  
+  - security
 tags:
   - dotnet
   - oauth
   - jwt
-  -identityserver
+  - identityserver
 ---
+
+The goal is to create an Aspnet core application with a security layer using IdentityServer, an OpenID Connect and OAuth 2.0 framework.
 
 ## Identity and Access Control
 
