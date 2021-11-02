@@ -6,6 +6,8 @@ tags:
   - ASP.NET
 ---
 
+Let's explore Asp.net core.
+
 ## Middleware
 
 Middleware is software that's assembled into an app pipeline to handle requests and responses.

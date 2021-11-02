@@ -110,3 +110,23 @@ git stash apply
 
 git config --system core.longpaths true
 ```
+
+## Remove Local/Remote branch
+
+```bash
+# remove local branch
+git branch -d <branch_name>
+ # force remove local branch
+git branch -D <branch_name>
+# remove remote branch
+git push origin -d {remote_branch}
+# remove the local remote-tracking branch
+git branch -rd origin/{local_branch}
+```
+
+## Unstage files
+
+```sh
+# Unstage all files
+git reset HEAD -- .
+```
